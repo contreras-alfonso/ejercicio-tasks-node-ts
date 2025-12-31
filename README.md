@@ -1,0 +1,31 @@
+# API CRUD de tareas con autenticación
+API CRUD de tareas con autenticación basada en JWT, que permite a los usuarios gestionar sus tareas.
+
+## Requisitos
+- Node.js 22+
+- MySQL
+
+
+## Instalar dependencias
+```sh
+npm install
+```
+
+## Variables de entorno
+
+Renombrar el archivo `.template.env` a `.env` y agregar las variables de entorno
+
+
+## Desarrollo
+
+_Ejecutar proyecto localmente_
+```sh
+npm run dev
+```
+
+## Funcionalidades
+
+- Autenticación de usuarios (JWT)
+- Registro e inicio de sesión
+- CRUD de tareas
+- Protección de rutas
